@@ -1,2 +1,2 @@
-export {ApproveDDIPage} from './collections/approveDDI';
-export {ManageDDIPage} from './collections/manageDDI';
+export {ApproveDDIPage} from './approveDDI';
+export {ManageDDIPage} from './manageDDI';
