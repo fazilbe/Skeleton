@@ -22,7 +22,7 @@ function App() {
   const baseContext = useContext(BaseContext);
 
   useEffect(() => {
-    //console.log("GLOBAL_CONFIG: ", GLOBAL_CONFIG.LANGUAGE.en)
+    console.log("GLOBAL_CONFIG: ", GLOBAL_CONFIG.LANGUAGE.en)
     extractBase(Constant.GENERIC.DEFAULT_LANGUAGE);
   }, []);
 
