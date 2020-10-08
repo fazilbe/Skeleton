@@ -1,0 +1,11 @@
+export const GENERIC = {
+	DEFAULT_LANGUAGE: 'en',
+	INITCOMPONENT: 'ApproveDDIPage'
+}
+
+export const TYPE = {
+	LANGUAGE: 'LANGUAGE',
+	APPCONFIG: 'APPCONFIG',
+	APPBASE: 'APPBASE',
+	
+}

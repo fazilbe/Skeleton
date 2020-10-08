@@ -1,0 +1,82 @@
+.login {
+    padding: 15px 0;
+    .login_container {
+        overflow: hidden;
+        //margin-left: 10px;
+        //margin-right: 10px;
+        border-radius: 10px;
+        background: #fff;
+        height: 100%;
+        box-shadow: 0 0 3px #ccc;
+        .login_content {
+            color: #fff;
+            background: $primary-color;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 1px 1px 4px #ccc;
+            h2 {
+                font-size: 40px;
+                text-transform: capitalize;
+                margin: 0;
+                padding: 0 0 20px 0;
+            }
+            p {
+                font-size: 14px;
+                padding: 0;
+                margin-bottom: 0;
+            }
+        }
+        .login-field-container {
+            //padding-top: 36%;
+            margin: 0 auto;
+            width: 350px;
+            text-align: center;
+            h2 {
+                font-size: 40px;
+                text-transform: capitalize;
+                color: #12ac83;
+                margin: 0;
+                padding: 0;
+            }
+            p {
+                font-size: 14px;
+                color: #666;
+                padding: 0;
+                margin-bottom: 20px;
+            }
+            .login-icon-left {
+                padding-bottom: 30px;
+            }
+            .login-fields {
+                padding: 0;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                height: 60px;
+                width: 350px;
+                margin-bottom: 15px;
+                i {
+                    font-size: 25px;
+                    line-height: 55px;
+                    color: #ccc;
+                }
+                .login-inputfield {
+                    width: 100%;
+                    border: none;
+                    padding: 5px 15px 5px 0;
+                    margin: 7px 0 5px 0;
+                    line-height: 35px;
+                    font-size: 19px;
+                    &:focus {
+                        border: none;
+                    }
+                    &:hover {
+                       border: none; 
+                    }
+                }
+            }
+            .login-btn-fields {
+                margin: 5px auto;
+            }
+        }
+    }
+}
