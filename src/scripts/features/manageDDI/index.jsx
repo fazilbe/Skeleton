@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 
 
 // ALL CONTEXT FILES
-import BaseContext from '../../../models/baseContext';
+import BaseContext from '../../models/baseContext';
 
 export const ManageDDIPage = (props) => {
 	
