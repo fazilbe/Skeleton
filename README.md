@@ -66,3 +66,13 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+1. Style component for styles.
+2. Component - Dont break into folder.
+3. Feature - module based (Flow).
+4. View - different use case approve -> verify -> confirm flow.
+5. Why not combine feature and view. cons.
+6. react-i18next use for translation.
+7. Global.js control from cmd while doing build.
+8. Differen between load one and dynamic react component. react suspen.
+9. Unit testing for module.

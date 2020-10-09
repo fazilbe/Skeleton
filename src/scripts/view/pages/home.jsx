@@ -13,7 +13,7 @@ export const HomePage = (props) => {
 
 	const [state, setState] = useState(Constant.GENERIC.INITCOMPONENT);
 	let MyActiveComponent   = FeatureComponents[state];
-
+	
 	return(
 	<div className="text-center">
 		

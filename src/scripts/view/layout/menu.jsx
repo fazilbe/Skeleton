@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 export const SideBar = (props) => {
-	const [state, setState] = useState('');
+	//const [state, setState] = useState('');
 	const navigate = (type) => {
-		setState(type)
+		//setState(type)
+		//setState('ApproveDDIPage');
 		props.changeComponent(type);
 	}
 
